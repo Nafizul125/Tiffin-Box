@@ -1,0 +1,88 @@
+/* Full screen gradient background */
+.homepage {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #4facfe, #00f2fe);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Login box styling */
+  .login-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+  }
+  /* App name heading */
+.app-name {
+  font-size: 28px;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+  
+  .login-box h2 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 28px;
+    letter-spacing: 1px;
+  }
+  
+  /* Input fields */
+  .login-box input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  .login-box input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  /* Login button */
+  .login-box button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-box button:hover {
+    background: linear-gradient(to right, #00d2ff, #3a7bd5);
+  }
+  
+  /* Register text */
+  .register-text {
+    margin-top: 20px;
+    font-size: 13px;
+    color: white;
+  }
+  
+  .register-text a {
+    color: yellow;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .register-text a:hover {
+    text-decoration: underline;
+  }
+  
