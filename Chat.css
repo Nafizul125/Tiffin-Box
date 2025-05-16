@@ -1,0 +1,133 @@
+.chat-page {
+    background: #fdfdfd;
+    padding: 40px 20px;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .chat-header h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .search-bar {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    width: 220px;
+  }
+  
+  .new-comment {
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto 40px;
+  }
+  
+  .new-comment input,
+  .new-comment textarea {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .new-comment textarea {
+    resize: vertical;
+    height: 80px;
+  }
+  
+  .new-comment button {
+    background: #00b894;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .new-comment button:hover {
+    background: #009172;
+  }
+  
+  .comment-section {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .comment-box {
+    background: #fff;
+    padding: 16px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  }
+  
+  .comment-content h4 {
+    margin-bottom: 5px;
+    color: #2d3436;
+  }
+  
+  .comment-content p {
+    color: #555;
+  }
+  
+  .replies {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .reply {
+    background: #f1f1f1;
+    margin: 6px 0;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  .reply-box {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .reply-box input {
+    flex: 1;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .reply-box button {
+    background: #0984e3;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .reply-box button:hover {
+    background: #065ab3;
+  }
+  
+  .no-comments {
+    text-align: center;
+    color: #777;
+    font-style: italic;
+  }
+  
